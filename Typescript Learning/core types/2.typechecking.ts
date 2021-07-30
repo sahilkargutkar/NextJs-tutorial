@@ -26,3 +26,6 @@ const number4 = 6.2;
 
 const result2 = add2(number3, number4);
 console.log(result2);
+
+// The + operator returns the numeric representation of the object.
+//  So in this particular case, it would appear to be predicating the if on whether or not d is a non-zero number.
